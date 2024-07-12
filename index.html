@@ -1,0 +1,1246 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/logo.jpg" type="image/x-icon">
+    <title>O Bahia Gastrobar</title>
+    <link rel="stylesheet" href="./styles/output.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</head>
+
+<body>
+
+
+    <header class="bg-white">
+        <nav class="flex justify-between items-center w-[92%]  mx-auto">
+            <div>
+                <img class="w-28 cursor-pointer rounded-full" src="./assets/logo.jpg" alt="...">
+            </div>
+            <div
+                class="nav-links duration-500 md:static absolute bg-white md:min-h-fit min-h-[60vh] left-0 top-[-100%] md:w-auto  w-full flex items-center px-2">
+                <ul class="flex md:flex-row flex-col md:items-center md:gap-[4vw] gap-8">
+                    <li>
+                        <a class="hover:text-gray-500  hover:border-b-4 border-black" href="#principais">Pratos Principais</a>
+                    </li>
+                    <li>
+                        <a class="hover:text-gray-500 hover:border-b-4 border-black" href="#especiais">Pratos Especiais</a>
+                    </li>
+                    <li>
+                        <a class="hover:text-gray-500 hover:border-b-4 border-black" href="#porções">Porções</a>
+                    </li>
+                    <li>
+                        <a class="hover:text-gray-500 hover:border-b-4 border-black" href="#espetos">Espetos Gourmet</a>
+                    </li>
+                    <li>
+                        <a class="hover:text-gray-500 hover:border-b-4 border-black" href="#acompanhamentos">Acompanhamentos</a>
+                    </li>
+                    <li>
+                        <a class="hover:text-gray-500 hover:border-b-4 border-black" href="#combos">Combos</a>
+                    </li>
+                    <li>
+                        <a class="hover:text-gray-500 hover:border-b-4 border-black" href="#tradicionais">Caipirinhas tradicionais</a>
+                    </li>
+                    <li>
+                        <a class="hover:text-gray-500 hover:border-b-4 border-black" href="#drinks">Drinks</a>
+                    </li>
+
+                    <li>
+                        <a class="hover:text-gray-500 hover:border-b-4 border-black" href="#gin">Gin</a>
+                    </li>
+
+                    <li>
+                        <a class="hover:text-gray-500 hover:border-b-4 border-black" href="#cerveja">Cervejas</a>
+                    </li>
+
+                    <li>
+                        <a class="hover:text-gray-500 hover:border-b-4 border-black" href="#bebidas">Bebidas não alcoólicas</a>
+                    </li>
+
+                    <li>
+                        <a class="hover:text-gray-500 hover:border-b-4 border-black" href="#sobremesas">Sobremesas</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="flex items-center gap-2">
+                <ion-icon onclick="onToggleMenu(this)" name="menu" class="text-3xl cursor-pointer md:hidden"></ion-icon>
+            </div>
+        </nav>
+    </header>
+
+
+
+    <main>
+
+        <h2 class="text-2xl md:text-3xl font-bold text-center  mt-9 mb-6">Conheça nosso menu</h2>
+
+
+
+        <h2 class="text-2xl md:text-3xl font-bold text-center  mt-9 mb-6" id="principais">Pratos Principais</h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 md:gap-10 mx-auto max-w-7xl px-2 mb-16">
+
+            <div class="flex gap-2">
+                <img src="/./assets/cardapio/pratosPrincipais/cavalo.jpg" alt="prato com contra file Cavalo"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
+                <div>
+                    <p class="font-bold"> Contra Filé á Cavalo </p>
+                    <p class="text-sm"><b>Acompanha:</b> arroz, feijão, fritas e salada.
+                    </p>
+                    <p class="text-sm">Serve 1 pessoas
+                    <div>
+                        <p class="font-bold pt-2">R$ 29,00
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex gap-2">
+                <img src="/./assets/cardapio/pratosPrincipais/filecontra.png" alt="prato com contra file"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
+                <div>
+                    <p class="font-bold"> Contra Filé</p>
+                    <p class="text-sm"><b>Acompanha:</b> arroz, feijão, fritas e salada.
+                    </p>
+                    <p class="text-sm">Serve 1 pessoas
+                    <div>
+                        <p class="font-bold pt-2">R$ 27,00
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex gap-2">
+                <img src="/./assets/cardapio/pratosPrincipais/frango.jpg" alt="prato com  file de frango"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
+                <div>
+                    <p class="font-bold">Filé de frango</p>
+                    <p class="text-sm"><b>Acompanha:</b> arroz, feijão, fritas e salada.
+                    </p>
+                    <p class="text-sm">Serve 1 pessoas
+                    <div>
+                        <p class="font-bold pt-2">R$ 24,00
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex gap-2">
+                <img src="/./assets/cardapio/pratosPrincipais/salmao.jpg" alt="prato com salmão"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
+                <div>
+                    <p class="font-bold">Salmão Grelhado</p>
+                    <p class="text-sm"><b>Acompanha:</b> Arroz primavera, batata sauté salada.
+                    </p>
+                    <p class="text-sm">Serve 1 pessoas
+                    <div>
+                        <p class="font-bold pt-2">R$ 47,99
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex gap-2">
+                <img src="/./assets/cardapio/pratosPrincipais/piicanha.jpg" alt="prato com Picanha Grelhada"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
+                <div>
+                    <p class="font-bold">Picanha Grelhada</p>
+                    <p class="text-sm"><b>Acompanha:</b> Arroz, feijão, batata sauté e salada.
+                    </p>
+                    <p class="text-sm">Serve 1 pessoas
+                    <div>
+                        <p class="font-bold pt-2">R$ 47,99
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex gap-2">
+                <img src="/./assets/cardapio/pratosPrincipais/mignon.jpg" alt="prato com Medalhão de Filé mignon"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
+                <div>
+                    <p class="font-bold">Medalhão de Filé mignon</p>
+                    <p class="text-sm"><b>Acompanha:</b> Arroz primavera, batata sauté salada.
+                    </p>
+                    <p class="text-sm">Serve 1 pessoas
+                    <div>
+                        <p class="font-bold pt-2">R$ 47,99
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex gap-2">
+                <img src="/./assets/cardapio/pratosPrincipais/parfrango.jpg"
+                    alt="prato com Parmegiana do bahia Filé de Frango"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
+                <div>
+                    <p class="font-bold">Parmegiana do bahia Filé de Frango</p>
+                    <p class="text-sm"><b>Acompanha:</b> Arroz, salada e fritas.
+                    </p>
+                    <p class="text-sm">Serve 1 pessoas
+                    <div>
+                        <p class="font-bold pt-2">R$ 33,00
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex gap-2">
+                <img src="/./assets/cardapio/pratosPrincipais//parfile.jpg" alt="prato com Parmegiana de contra file"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
+                <div>
+                    <p class="font-bold">Parmegiana do bahia Contra Filé</p>
+                    <p class="text-sm"><b>Acompanha:</b> Arroz, salada e fritas.
+                    </p>
+                    <p class="text-sm">Serve 1 pessoas
+                    <div>
+                        <p class="font-bold pt-2">R$ 39,99
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex gap-2">
+                <img src="/./assets/cardapio/pratosPrincipais/parnon.jpg" alt="prato com Parmegiana de Filé Mignon"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
+                <div>
+                    <p class="font-bold">Parmegiana do bahia Filé Mignon</p>
+                    <p class="text-sm"><b>Acompanha:</b> Arroz, salada e fritas.
+                    </p>
+                    <p class="text-sm">Serve 1 pessoas
+                    <div>
+                        <p class="font-bold pt-2">R$ 49,99
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+        <h2 class="text-2xl md:text-3xl font-bold text-center  mt-9 mb-6" id="especiais">Pratos Especiais</h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 md:gap-10 mx-auto max-w-7xl px-2 mb-16">
+
+            <div class="flex gap-2">
+                <img src="/./assets/cardapio/pratosEspeciais/bahiao.jpg" alt="prato e bahião de dois"
+                    class="w-30 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
+                <div>
+                    <p class="font-bold"> Contra Filé á Cavalo </p>
+                    <p class="text-sm"><b>Nosso sucesso de vendas</b> Feito com Feijão de corda, arroz, manteiga de
+                        garrafa calabresa, bacon queijo coalho, jabá desfiado e pimenta biquinho.
+                    </p>
+                    <div>
+                        <p class="font-bold pt-2"><b>Pequeno: </b>R$ 29,00</p>
+                        <p class="font-bold pt-2"><b>Grande: </b>R$ 68,00</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex gap-2">
+                <img src="/./assets/cardapio/pratosEspeciais/feijoada.jpg" alt="prato e fijoada"
+                    class="w-30 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
+                <div>
+                    <p class="font-bold">Feijoada Light - (Somente as Quartas e sábados até as 16hrs)
+                    </p>
+                    <p class="text-sm">Acompanha: arroz branco, torresmo, farofa,couve refolgada, laranja e molho de
+                        pimenta.
+                    </p>
+                    <div>
+                        <p class="font-bold pt-2"><b>Média: </b>R$ 55,00
+                        <p class="text-sm">serve 2 pessoas</p>
+                        </p>
+                        </p>
+                        <p class="font-bold pt-2"><b>Grande: </b>R$ 85,00
+                        <p class="text-sm">serve 3 a 4 pessoas</p>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <h2 class="text-2xl md:text-x font-bold text-center  mt-9 mb-6" id="porções">Porções</h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 md:gap-10 mx-auto max-w-7xl px-2 mb-16">
+
+            <div class="flex gap-2">
+                <img src="/./assets/cardapio/porcao/calabresa.jpg" alt="Porção de calabresa"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
+                <div>
+                    <p class="font-bold">Calabresa</p>
+                    <p class="text-sm"><b>Acompanha:</b> vinagrete, molho da casa e pães.
+                    </p>
+                    <p class="text-sm">Serve 2 pessoas
+                    <div>
+                        <p class="font-bold pt-2">R$ 38,00
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex gap-2">
+                <img src="./assets/cardapio/porcao/contra.jpg" alt="Porção de Contra Filé"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
+                <div>
+                    <p class="font-bold">Contra Filé</p>
+                    <p class="text-sm"><b>Acompanha:</b> vinagrete, molho da casa e pães.
+                    </p>
+                    <p class="text-sm">Serve 2 pessoas
+                    <div>
+                        <p class="font-bold pt-2">R$ 63,00
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="flex gap-2">
+                <img src="/./assets/cardapio/porcao/batatafrita.jpg" alt="Porção de Batata frita"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
+                <div>
+                    <p class="font-bold">Batata simples 300g</p>
+                    <p class="text-sm"><b>Acompanha:</b> molho especial da casa.
+                    </p>
+                    <p class="text-sm">Serve 1 pessoa
+                    <div>
+                        <p class="font-bold pt-2">R$ 25,00
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="flex gap-2">
+                <img src="./assets/cardapio/porcao/batata-cheddar.jpg" alt="Porção de Batata frita com cheddar e Bacon "
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
+                <div>
+                    <p class="font-bold">Batata com cheddar e Bacon</p>
+                    <p class="text-sm"><b>Acompanha:</b> molho especial da casa.
+                    </p>
+                    <p class="text-sm">Serve 1 pessoa
+                    <div>
+                        <p class="font-bold pt-2">R$ 45,00</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="flex gap-2">
+                <img src="./assets/cardapio/porcao/torresmo-de-rolo.jpg" alt="Porção Panceta de rolo "
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
+                <div>
+                    <p class="font-bold">Panceta de rolo </p>
+                    <p class="text-sm">Serve 2 pessoas</p>
+                    <div>
+                        <p class="font-bold pt-6">R$ 55,00</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="flex gap-2">
+                <img src="./assets/cardapio/porcao/mista.jpg" alt="Contra filé, frango e calabresa"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
+                <div>
+                    <p class="font-bold">Mista</p>
+                    <p class="text-sm"><b>Acompanha:</b>Contra filé, frango, calabresa, vinagrete, molho da casa e pães.
+                    </p>
+                    <p class="text-sm">Serve 2 pessoas
+                    <div>
+                        <p class="font-bold pt-2">R$ 75,00</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex gap-2">
+                <img src="./assets/cardapio/porcao/picanha-br.jpg" alt="Picanha Brasileira"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
+                <div>
+                    <p class="font-bold">Picanha Brasileira</p>
+                    <p class="text-sm"><b>Acompanha:</b>vinagrete, molho da casa e pães.
+                    </p>
+                    <p class="text-sm">Serve 2 pessoas
+                    <div>
+                        <p class="font-bold pt-2">R$ 110,00
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex gap-2">
+                <img src="./assets/cardapio/porcao//picanhaali.png" alt="
+                Picanha com aligot" class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
+                <div>
+                    <p class="font-bold">
+                        Picanha com aligot
+                    </p>
+                    <p class="text-sm"><b>Acompanha:</b> Arroz, fritas, vinagrete, farofa, molho da casa.
+                    </p>
+                    <p class="text-sm">Serve 2 á 3 pessoas</p>
+                    <div>
+                        <p class="font-bold pt-2">R$ 159,99
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <h2 class="text-2xl md:text-x font-bold text-center  mt-9 mb-6" id="espetos">Espetos Gourmet</h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 md:gap-10 mx-auto max-w-7xl px-2 mb-16">
+
+            <div class="flex gap-2">
+                <img src="./assets/cardapio/porcao/espeto-fral.jpg" alt="espetinho de fraldinha"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
+                <div>
+                    <p class="font-bold">Fraldinha</p>
+                    <p class="text-sm"><b>Acompanha:</b> vinagrete, farofa e molho da casa.
+                    </p>
+                    <div>
+                        <p class="font-bold">R$ 10,00</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex gap-2">
+                <img src="./assets/cardapio/porcao/queijo.jpeg" alt="Queijo coalho"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
+                <div>
+                    <p class="font-bold">Queijo coalho</p>
+                    <p class="text-sm"><b>Acompanha:</b> vinagrete, farofa e molho da casa.
+                    </p>
+                    <div>
+                        <p class="font-bold">R$ 10,00</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex gap-2">
+                <img src="./assets/cardapio/porcao/panceta.jpg" alt="panceta"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
+                <div>
+                    <p class="font-bold">Panceta</p>
+                    <p class="text-sm"><b>Acompanha:</b> vinagrete, farofa e molho da casa.
+                    </p>
+                    <div>
+                        <p class="font-bold">R$ 10,00</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex gap-2">
+                <img src="./assets/cardapio/porcao/alcatra.jpg" alt="Alcatra"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
+                <div>
+                    <p class="font-bold">Alcatra</p>
+                    <p class="text-sm"><b>Acompanha:</b> vinagrete, farofa e molho da casa.
+                    </p>
+                    <div>
+                        <p class="font-bold">R$ 13,00</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex gap-2">
+                <img src="./assets/cardapio/porcao/Picanha-espeto.jpg" alt="Picanha"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
+                <div>
+                    <p class="font-bold">Picanha</p>
+                    <p class="text-sm"><b>Acompanha:</b> vinagrete, farofa e molho da casa.
+                    </p>
+                    <div>
+                        <p class="font-bold">R$ 23,00</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex gap-2">
+                <img src="./assets/cardapio/porcao/linguica.jpg" alt="Linguiça"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
+                <div>
+                    <p class="font-bold">Linguiça</p>
+                    <p class="text-sm"><b>Acompanha:</b> vinagrete, farofa e molho da casa.
+                    </p>
+                    <div>
+                        <p class="font-bold">R$ 10,00</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h2 class="text-2xl md:text-x font-bold text-center  mt-9 mb-6" id="acompanhamentos">Acompanhamentos</h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 md:gap-10 mx-auto max-w-7xl px-2 mb-16">
+
+            <div class="flex gap-2">
+                <img src="./assets/cardapio/porcao/porcao-arroz.png" alt="porção de arroz"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
+                <div>
+                    <p class="font-bold">Arroz branco</p>
+                    <p class="text-sm">Porção individual</p>
+                    <div>
+                        <p class="font-bold pt-6">R$ 8,00</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex gap-2">
+                <img src="./assets/cardapio/porcao/porcao-arroz-500g.jpg" alt="porção de arroz"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
+                <div>
+                    <p class="font-bold">Arroz branco</p>
+                    <p class="text-sm">Serve 2 pessoas</p>
+                    <div>
+                        <p class="font-bold pt-6">R$ 15,00</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex gap-2">
+                <img src="./assets/cardapio/porcao/arroz-primavera.jpg" alt="Arroz primavera 500g"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
+                <div>
+                    <p class="font-bold">Arroz primavera 500g</p>
+                    <p class="text-sm">Serve 2 pessoas</p>
+                    <div>
+                        <p class="font-bold pt-6">R$ 19,00</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex gap-2">
+                <img src="./assets/cardapio/porcao/arroz-biro-biro.jpg" alt="Arroz Biro Biro 500g"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
+                <div>
+                    <p class="font-bold">Arroz Biro Biro 500g</p>
+                    <p class="text-sm">Serve 2 pessoas</p>
+                    <div>
+                        <p class="font-bold pt-6">R$ 23,00</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex gap-2">
+                <img src="./assets/cardapio/porcao/Bainhaozinho.jpg" alt="Bainhaozinho "
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
+                <div>
+                    <p class="font-bold">Bainhaozinho</p>
+                    <p class="text-sm">Serve 2 pessoas</p>
+                    <div>
+                        <p class="font-bold pt-6">R$ 29,00</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex gap-2">
+                <img src="./assets/cardapio/porcao/feijao.jpg" alt="Feijão"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
+                <div>
+                    <p class="font-bold">Feijão</p>
+                    <p class="text-sm">Porção individual</p>
+                    <div>
+                        <p class="font-bold pt-6">R$ 12,00</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <h2 class="text-2xl md:text-x font-bold text-center  mt-9 mb-6" id="combos">Combos</h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 md:gap-10 mx-auto max-w-7xl px-2 mb-16">
+
+            <div class="flex gap-2">
+                <img src="./assets/cardapio/combo/bu.avif" alt="buchanan's"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
+                <div>
+                    <p class="font-bold">Buchanan's</p>
+                    <p class="text-sm">Combo acompanhado com 4 gelo de coco e 4 red bull.
+                    </p>
+                    <div>
+                        <p class="font-bold pt-6">R$ 330,00
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex gap-2">
+                <img src="./assets/cardapio/combo/jack.webp" alt="Jack Daniel"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
+                <div>
+                    <p class="font-bold">Jack Daniels</p>
+                    <p class="text-sm">Combo acompanhado com 4 gelo de coco e 4 red bull.
+                    </p>
+                    <div>
+                        <p class="font-bold pt-6">R$ 250,00
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex gap-2">
+                <img src="./assets/cardapio/combo/red.jpg" alt="Red Label"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
+                <div>
+                    <p class="font-bold">Red Label</p>
+                    <p class="text-sm">Combo acompanhado com 4 gelo de coco e 4 red bull.
+                    </p>
+                    <div>
+                        <p class="font-bold pt-6">R$ 190,00
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex gap-2">
+                <img src="./assets/cardapio/combo/black.webp" alt="Black Label"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
+                <div>
+                    <p class="font-bold">Black Label</p>
+                    <p class="text-sm">Combo acompanhado com 4 gelo de coco e 4 red bull.
+                    </p>
+                    <div>
+                        <p class="font-bold pt-6">R$ 270,00
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex gap-2">
+                <img src="./assets/cardapio/combo/gold.jpg" alt="Gold Label"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
+                <div>
+                    <p class="font-bold">Gold Label</p>
+                    <p class="text-sm">Combo acompanhado com 4 gelo de coco e 4 red bull.
+                    </p>
+                    <div>
+                        <p class="font-bold pt-6">R$ 400,00
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex gap-2">
+                <img src="./assets/cardapio/combo/tanqueray.png" alt="tanqueray"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
+                <div>
+                    <p class="font-bold">Tanqueray</p>
+                    <p class="text-sm">4 Red bull de sabor e frutas.</p>
+                    <div>
+                        <p class="font-bold pt-6">R$ 250,00
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex gap-2">
+                <img src="./assets/cardapio/combo/bette.jpg" alt="Beefeate"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
+                <div>
+                    <p class="font-bold">Beefeater</p>
+                    <p class="text-sm">4 Red bull de sabor e frutas.</p>
+                    <div>
+                        <p class="font-bold pt-6">R$ 250,00
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex gap-2">
+                <img src="./assets/cardapio/combo/beefeaterPink.jpg" alt="Beefeate"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
+                <div>
+                    <p class="font-bold">Beefeater Pink </p>
+                    <p class="text-sm">4 Red bull de sabor e frutas.</p>
+                    <div>
+                        <p class="font-bold pt-6">R$ 280,00
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex gap-2">
+                <img src="./assets/cardapio/combo/bulldog.jpg" alt="bulldog"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
+                <div>
+                    <p class="font-bold">Bulldog</p>
+                    <p class="text-sm">4 Red bull de sabor e frutas.</p>
+                    <div>
+                        <p class="font-bold pt-6">R$ 330,00
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h2 class="text-2xl md:text-x font-bold text-center  mt-9 mb-6" id="tradicionais">Caipirinhas tradicionais</h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 md:gap-10 mx-auto max-w-7xl px-2 mb-16">
+
+            <div class="flex gap-2">
+                <img src="./assets/cardapio/caipirinhaTradicional/limao.png" alt="Caipirinhas de limão"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
+                <div>
+                    <p class="font-bold">Caipirinha de limão</p>
+                    <p class="text-sm"><b>Cachaça:</b> R$ 25,00</p>
+                    <p class="text-sm"><b>Vodka:</b> R$ 29,00</p>
+                    <p class="text-sm"><b>Saquê:</b> R$ 27,00</p>
+                </div>
+            </div>
+
+            <div class="flex gap-2">
+                <img src="./assets/cardapio/caipirinhaTradicional/morango.png" alt="Caipirinhas de morango"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
+                <div>
+                    <p class="font-bold">Caipirinha de Morango</p>
+                    <p class="text-sm"><b>Cachaça:</b> R$ 25,00</p>
+                    <p class="text-sm"><b>Vodka:</b> R$ 29,00</p>
+                    <p class="text-sm"><b>Saquê:</b> R$ 27,00</p>
+                </div>
+            </div>
+
+            <div class="flex gap-2">
+                <img src="./assets/cardapio/caipirinhaTradicional/maracuja.png" alt="Caipirinhas de maracujá"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
+                <div>
+                    <p class="font-bold">Caipirinha de maracujá</p>
+                    <p class="text-sm"><b>Cachaça:</b> R$ 25,00</p>
+                    <p class="text-sm"><b>Vodka:</b> R$ 29,00</p>
+                    <p class="text-sm"><b>Saquê:</b> R$ 27,00</p>
+                </div>
+            </div>
+
+            <div class="flex gap-2">
+                <img src="./assets/cardapio/caipirinhaTradicional/melancia.jpg" alt="Caipirinhas de melancia"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
+                <div>
+                    <p class="font-bold">Caipirinha de melancia</p>
+                    <p class="text-sm"><b>Cachaça:</b> R$ 25,00</p>
+                    <p class="text-sm"><b>Vodka:</b> R$ 29,00</p>
+                    <p class="text-sm"><b>Saquê:</b> R$ 27,00</p>
+                </div>
+            </div>
+
+        </div>
+
+
+        <h2 class="text-2xl md:text-x font-bold text-center  mt-9 mb-6">Caipirinhas especiais</h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 md:gap-10 mx-auto max-w-7xl px-2 mb-16">
+
+            <div class="flex gap-2">
+                <img src="./assets/cardapio/caipirinhaEspeciais/frutas.jpg" alt="Caipirinhas de Frutas vermelhas"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
+                <div>
+                    <p class="font-bold">Caipirinha de Frutas vermelhas</p>
+                    <p class="text-sm"><b>Cachaça:</b> R$ 27,00</p>
+                    <p class="text-sm"><b>Vodka:</b> R$ 31,00</p>
+                    <p class="text-sm"><b>Saquê:</b> R$ 29,00</p>
+                </div>
+            </div>
+
+            <div class="flex gap-2">
+                <img src="./assets/cardapio/caipirinhaEspeciais/tropical.webp" alt="Caipirinhas tropical"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
+                <div>
+                    <p class="font-bold">Caipirinha tropical</p>
+                    <p class="text-sm"><b>Cachaça:</b> R$ 27,00</p>
+                    <p class="text-sm"><b>Vodka:</b> R$ 31,00</p>
+                    <p class="text-sm"><b>Saquê:</b> R$ 29,00</p>
+                </div>
+            </div>
+
+            <div class="flex gap-2">
+                <img src="./assets/cardapio/caipirinhaEspeciais/amarelas.png" alt="Caipirinhas Frutas amarelas"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
+                <div>
+                    <p class="font-bold">Caipirinha Frutas amarelas</p>
+                    <p class="text-sm"><b>Cachaça:</b> R$ 27,00</p>
+                    <p class="text-sm"><b>Vodka:</b> R$ 31,00</p>
+                    <p class="text-sm"><b>Saquê:</b> R$ 29,00</p>
+                </div>
+            </div>
+
+            <div class="flex gap-2">
+                <img src="./assets/cardapio/caipirinhaEspeciais/morango.jpg" alt="Caipirinhas de morango com limão"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
+                <div>
+                    <p class="font-bold">Caipirinha de morango com limão</p>
+                    <p class="text-sm"><b>Cachaça:</b> R$ 27,00</p>
+                    <p class="text-sm"><b>Vodka:</b> R$ 31,00</p>
+                    <p class="text-sm"><b>Saquê:</b> R$ 29,00</p>
+                </div>
+            </div>
+
+        </div>
+
+
+        <h2 class="text-2xl md:text-x font-bold text-center  mt-9 mb-6" id="drinks">Drinks</h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 md:gap-10 mx-auto max-w-7xl px-2 mb-16">
+
+            <div class="flex gap-2">
+                <img src="./assets/cardapio/drinks/mule.jpg" alt="Moscow Mule"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
+                <div>
+                    <p class="font-bold">Moscow Mule</p>
+                    <p class="text-sm"> Xarope de açúcar ,suco de limão,vodka e espuma de gengibre.</p>
+                    <div>
+                        <p class="font-bold pt-2">R$ 33,00</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex gap-2">
+                <img src="./assets/cardapio/drinks/margarita.jpg" alt="Drink margarita"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
+                <div>
+                    <p class="font-bold">Margarita</p>
+                    <p class="text-sm">Licor de laranja, suco de limão e tequila prata</p>
+                    <div>
+                        <p class="font-bold pt-6">R$ 30,00</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex gap-2">
+                <img src="./assets/cardapio/drinks/negroni.jpg" alt="Drink Negroni"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
+                <div>
+                    <p class="font-bold">Negroni</p>
+                    <p class="text-sm">Campari, gin, vermouth infusionado com casca de laranja pera.</p>
+                    <div>
+                        <p class="font-bold pt-2">R$ 35,00</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex gap-2">
+                <img src="./assets/cardapio/drinks/mojito.jpg" alt="Drink Mojito"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
+                <div>
+                    <p class="font-bold">Mojito</p>
+                    <p class="text-sm">Rum carta branca, suco de limão, xarope com açucar, hortelã e água com gás.</p>
+                    <div>
+                        <p class="font-bold pt-2">R$ 29,00</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h2 class="text-2xl md:text-x font-bold text-center  mt-9 mb-6" id="gin">Gin</h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 md:gap-10 mx-auto max-w-7xl px-2 mb-16">
+
+            <div class="flex gap-2">
+                <img src="./assets/cardapio/gin/tropical.jpg" alt="Gin Tropical"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
+                <div>
+                    <p class="font-bold">Gin Tropical</p>
+                    <p class="text-sm">Gin, rodelas de limão e laranja e Red bull tropical.</p>
+                    <div>
+                        <p class="font-bold pt-6">R$ 35,00</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex gap-2">
+                <img src="./assets/cardapio/gin/melancia.jpg" alt="Gin Melancia"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
+                <div>
+                    <p class="font-bold">Gin Melancia</p>
+                    <p class="text-sm">Gin, pedaços de Melancia e Red bull de Melancia</p>
+                    <div>
+                        <p class="font-bold pt-6">R$ 35,00</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex gap-2">
+                <img src="./assets/cardapio/gin/gin-tonica.webp" alt="Gin Tonica"
+                    class="w-27 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
+                <div>
+                    <p class="font-bold">Gin Tonica</p>
+                    <p class="text-sm">Gin, limão e tônica </p>
+                    <div>
+                        <p class="font-bold pt-6">R$ 30,00</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex gap-2">
+                <img src="./assets/cardapio/gin/Gin-Maçã.jpg" alt="Gin Maçã verde"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
+                <div>
+                    <p class="font-bold">Gin Maçã verde</p>
+                    <p class="text-sm"> Gin,xarope de maçã verde, soda e maçã em pedaço</p>
+                    <div>
+                        <p class="font-bold pt-6">R$ 33,00</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="flex gap-2">
+                <img src="./assets/cardapio/gin/citrus-drink-long-gin.jpg" alt="Gin Citrus"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
+                <div>
+                    <p class="font-bold">Gin Citrus</p>
+                    <p class="text-sm">Gin, xarope de limão e refrigerante citrus</p>
+                    <div>
+                        <p class="font-bold pt-6">R$ 33,00</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex gap-2">
+                <img src="./assets/cardapio/gin/maracuja.jpg" alt="Gin maracujá"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
+                <div>
+                    <p class="font-bold">Gin maracujá</p>
+                    <p class="text-sm">Gin, xarope de maracujá,soda e polpa de maracujá.</p>
+                    <div>
+                        <p class="font-bold pt-6">R$ 35,00</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h2 class="text-2xl md:text-x font-bold text-center  mt-9 mb-6">Gin especiais</h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 md:gap-10 mx-auto max-w-7xl px-2 mb-16">
+
+            <div class="flex gap-2">
+                <img src="./assets/cardapio/gin/especia-maracuja.jpg" alt=" Gin o Bahia"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
+                <div>
+                    <p class="font-bold">Gin o Bahia</p>
+                    <p class="text-sm"> Gin tanqueray, maracujá, xarope de açúcar,energético de manga e espuma de
+                        maracujá</p>
+                    <div>
+                        <p class="font-bold">R$ 54,00</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex gap-2">
+                <img src="./assets/cardapio/gin/especial-verme.jpg" alt="Gin de Frutas vermelhas"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
+                <div>
+                    <p class="font-bold">Gin de Frutas vermelhas</p>
+                    <p class="text-sm"> Gin Tanqueray, xarope de frutas vermelhas, Red bull de Melancia, frutas
+                        vermelhas e espuma cítrica.</p>
+                    <div>
+                        <p class="font-bold">R$ 54,00</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex gap-2">
+                <img src="./assets/cardapio/gin/pitaya.webp" alt="Gin Pitaya"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
+                <div>
+                    <p class="font-bold">Gin Pitaya</p>
+                    <p class="text-sm"> Gin tanqueray, xarope de limão, pitaya,Red bull de pitaya e espuma cítrica.</p>
+                    <div>
+                        <p class="font-bold">R$ 54,00</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <h2 class="text-2xl md:text-3xl font-bold text-center  mt-9 mb-6" id="cerveja">Cervejas</h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 md:gap-10 mx-auto max-w-7xl px-2 mb-16">
+
+            <div class="flex gap-2">
+                <img src="./assets/cardapio/cerveja/original.png" alt="Cerveja Original  600ml"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
+                <div>
+                    <p class="font-bold">Original 600ml</p>
+                    <div>
+                        <p class="font-bold pt-6">R$ 14,00</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex gap-2">
+                <img src="./assets/cardapio/cerveja/puro.webp" alt="Cerveja Duplo malte  600ml"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
+                <div>
+                    <p class="font-bold">Duplo malte 600ml</p>
+                    <div>
+                        <p class="font-bold pt-6">R$ 12,00</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex gap-2">
+                <img src="./assets/cardapio/cerveja/spaten.avif" alt="Cerveja Spaten  600ml"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
+                <div>
+                    <p class="font-bold">Spaten 600ml</p>
+                    <div>
+                        <p class="font-bold pt-6">R$ 16,00</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex gap-2">
+                <img src="./assets/cardapio/cerveja/hein.jpg" alt="Cerveja Heineken  600ml"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
+                <div>
+                    <p class="font-bold">Heineken 600ml</p>
+                    <div>
+                        <p class="font-bold pt-6">R$ 18,00</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="flex gap-2">
+                <img src="./assets/cardapio/cerveja/longHeineken.jpg" alt="Cerveja Long Neck Heineken"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
+                <div>
+                    <p class="font-bold">Long Neck Heineken</p>
+                    <div>
+                        <p class="font-bold pt-6">R$ 12,00</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="flex gap-2">
+                <img src="./assets/cardapio/cerveja/longCorona.jpg" alt="Cerveja Long Neck Corona"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
+                <div>
+                    <p class="font-bold">Long Neck Corona</p>
+                    <div>
+                        <p class="font-bold pt-6">R$ 12,00</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="flex gap-2">
+                <img src="./assets/cardapio/cerveja/longBudweiser.jpg" alt="Cerveja Long Neck Budweise"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
+                <div>
+                    <p class="font-bold">Long Neck Budweiser</p>
+                    <div>
+                        <p class="font-bold pt-6">R$ 12,00</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="flex gap-2">
+                <img src="./assets/cardapio/cerveja/longSmirnoff.webp" alt="Cerveja Long Neck Smirnoff Ice"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
+                <div>
+                    <p class="font-bold">Long Neck Smirnoff Ice</p>
+                    <div>
+                        <p class="font-bold pt-6">R$ 12,00</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+
+        <h2 class="text-2xl md:text-x font-bold text-center  mt-9 mb-6" id="bebidas">Bebidas não alcoólicas</h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 md:gap-10 mx-auto max-w-7xl px-2 mb-16">
+
+            <div class="flex gap-2">
+                <img src="./assets/cardapio/semAlcool/aguaGas.webp" alt="Água com gás"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
+                <div>
+                    <p class="font-bold">Água com gás</p>
+                    <div>
+                        <p class="font-bold pt-6">R$ 4,50</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex gap-2">
+                <img src="./assets/cardapio/semAlcool/agua.webp" alt="Água"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
+                <div>
+                    <p class="font-bold">Água sem gás</p>
+                    <div>
+                        <p class="font-bold pt-6">R$ 4,00</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex gap-2">
+                <img src="./assets/cardapio/semAlcool/tonica.jpg" alt="Água Tonica"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
+                <div>
+                    <p class="font-bold">Água Tonica</p>
+                    <div>
+                        <p class="font-bold pt-6">R$ 7,00</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex gap-2">
+                <img src="./assets/cardapio/semAlcool/coca.jpg" alt="lata de coca cola"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
+                <div>
+                    <p class="font-bold">Lata de Coca Cola"</p>
+                    <div>
+                        <p class="font-bold pt-6">R$ 6,50</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex gap-2">
+                <img src="./assets/cardapio/semAlcool/cocaZero.jpg" alt="lata de coca cola zero"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
+                <div>
+                    <p class="font-bold">Lata de Coca Cola zero/p>
+                    <div>
+                        <p class="font-bold pt-6">R$ 6,50</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex gap-2">
+                <img src="./assets/cardapio/semAlcool/guarana.webp" alt="Lata de Guaraná"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
+                <div>
+                    <p class="font-bold">Lata de Guaraná</p>
+                    <div>
+                        <p class="font-bold pt-6">R$ 6,50</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex gap-2">
+                <img src="./assets/cardapio/semAlcool/sprite.png" alt="Lata de Sprite"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
+                <div>
+                    <p class="font-bold">Lata de Sprite</p>
+                    <div>
+                        <p class="font-bold pt-6">R$ 6,50</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex gap-2">
+                <img src="./assets/cardapio/semAlcool/citrus.webp" alt="Lata de Schweppes Citrus"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
+                <div>
+                    <p class="font-bold">Lata de Schweppes Citrus</p>
+                    <div>
+                        <p class="font-bold pt-6">R$ 7,00</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex gap-2">
+                <img src="./assets/cardapio/semAlcool/redbull.webp" alt="Lata de Red bull"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
+                <div>
+                    <p class="font-bold">Lata de Red bull</p>
+                    <div>
+                        <p class="font-bold pt-6">R$ 15,00</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex gap-2">
+                <img src="./assets/cardapio/semAlcool/tropical.jpg" alt="Lata de Red bull Tropical"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
+                <div>
+                    <p class="font-bold">Lata de Red bull Tropical</p>
+                    <div>
+                        <p class="font-bold pt-6">R$ 15,00</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex gap-2">
+                <img src="./assets/cardapio/semAlcool/melancia.jpg" alt="Lata de Red bull melancia"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
+                <div>
+                    <p class="font-bold">Lata de Red bull melancia</p>
+                    <div>
+                        <p class="font-bold pt-6">R$ 15,00</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <h2 class="text-2xl md:text-x font-bold text-center  mt-9 mb-6" id="Sobremesas">Sobremesas </h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 md:gap-10 mx-auto max-w-7xl px-2 mb-16">
+
+            <div class="flex gap-2">
+                <img src="./assets/cardapio/sobremesa/petit.jpg" alt="Petit Gateau"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
+                <div>
+                    <p class="font-bold">Petit Gateau</p>
+                    <p class="text-sm">Bolo de chocolate da casa quente com sorvete de creme finalizado com calda de
+                        chocolate</p>
+                    <div>
+                        <p class="font-bold">R$ 18,00</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex gap-2">
+                <img src="./assets/cardapio/sobremesa/pudim.webp" alt="Pudim"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
+                <div>
+                    <p class="font-bold">Pudim</p>
+                    <p class="text-sm">Nosso delicioso pudim de leite com chantilly</p>
+                    <div>
+                        <p class="font-bold">R$ 12,00</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex gap-2">
+                <img src="./assets/cardapio/sobremesa/brownie.jpg" alt="Brownie"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
+                <div>
+                    <p class="font-bold">Brownie</p>
+                    <p class="text-sm">Brownie da casa quente com sorvete de creme finalizado com calda de chocolate.
+                    </p>
+                    <div>
+                        <p class="font-bold">R$ 18,00</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+
+    <script>
+        const navLinks = document.querySelector('.nav-links')
+        function onToggleMenu(e){
+            e.name = e.name === 'menu' ? 'close' : 'menu'
+            navLinks.classList.toggle('top-[9%]')
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: #f6f7f8;
+    margin: 0;
+    padding: 0;
+}
+
+.containerr {
+    max-width: 1024px;
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    box-shadow: 10px 5px 5px rgb(58, 57, 57);
+}
+
+.selector {
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    flex-wrap: wrap;
+    display: flex;
+}
+
